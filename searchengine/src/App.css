@@ -1,0 +1,40 @@
+body {
+  background-color: blueviolet;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 15px;
+  margin-top: 5em;
+}
+
+.Btn {
+  width: 100px;
+  height: 30px;
+  border: none;
+  margin: 3px;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  margin-top: 1em;
+  overflow: hidden;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+  transition: transform 100ms ease-in;
+}
+
+.Btn:hover {
+  transform: scale(1.07);
+}
+
+h1 {
+  font-size: 2em;
+}
